@@ -1,0 +1,599 @@
+@media only screen and (min-width: 810px){ 
+  .wrapper .top_nav .left{
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo{
+    box-shadow:12px 10px 12px rgba(10, 10, 10, 0.3);
+  }
+  .wrapper .top_nav .left .logo p{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+    font-family: var(--Abel);
+    margin-right: 25px;
+  }
+  
+  
+  .header .logo2 .fa-free-code-camp{
+  
+    font-size: 5rem !important;
+   
+    
+  }
+  
+  .wrapper .top_nav .left .search_bar input[type="text"]{
+   position: relative;
+    padding: 5px 10px;
+     width: 90%;
+      text-align: center;
+      border: none;
+      left: 100%;
+      border-bottom: 1px solid #00316b;
+      border-radius: 20px;
+      outline: none;
+      background-color: #fff;
+      transition: all 0.5s linear;
+      
+  }
+ 
+  
+  .wrapper .top_nav .left .search_bar input[type="text"]:focus{
+    width: 250px;
+  }
+  
+  .wrapper .top_nav .nav1 ul{
+    display: flex;
+   
+  }
+  
+  .wrapper .top_nav .nav1 ul li{
+    margin: 0 42px;
+  }
+  
+  .wrapper .top_nav .nav1 ul li{
+    margin-right: 0;
+    border-radius: 2px;
+    
+  }
+  
+  
+  
+  .wrapper .top_nav .nav1 ul li a {
+    display: block;
+    padding: 8px 10px;
+    color: var(--white);
+    text-decoration: none;
+    justify-content: f;
+   
+  }
+  
+  .wrapper .top_nav .nav1 ul li a{
+     color: #fff;  
+  }
+  .header li{
+    float: left;
+}
+.header li a{
+    padding: 20px 30px;
+}
+.header .menu{
+clear: none;
+float: right;
+max-height: none;
+
+}
+.header .menu-icon{
+    display: none;
+}
+header .logo2 .fa-free-code-camp{
+    font-size: 30px;
+}
+.inner-container{
+  padding: 80px;
+}
+.course .course-item{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+  padding: 0 10px;
+
+
+}
+.client .client-img h4{
+  font-size: 20px;
+}
+.client .client-img img{
+  position: relative !important;
+  height:150px !important;
+  width: 150px !important;
+  border-radius: 100% !important;
+  left: -20px !important;
+  
+}
+.client .about-client .clients-info{
+ 
+  padding: 50px 0;
+}
+.wthree_footer_grid_right1 ul li i {
+  padding-right: .3em;
+}
+.wthree_footer_grid_left1 ul li {
+  letter-spacing: 0px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 810px){
+    .wrapper .top_nav .nav1 ul li a .none{
+        display: none;
+     }
+     .header .logo2 .fa-free-code-camp{
+        font-size: 3.7rem;
+    }
+    .wrapper .top_nav .left .search_bar input[type="text"]:focus{
+      width: 270px;
+
+    }
+    .home-img img{
+      max-width: 400px;
+      max-height: 700px;
+      width: 100%;
+      position: absolute;
+      left: 25px;
+      top: 50px;
+    }
+    .inner-container h1{
+      font-size: 1.5rem;
+    }
+    .skills{
+      display: block;
+
+    }
+    .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+  
+  .services .service-item{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.course .course-item{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
+  padding: 0 5px;
+
+
+}
+.team .team-section{
+  flex: 0 0 50%;
+   max-width: 50%;
+   margin-bottom: 30px;
+   
+   
+}
+.team .team-section .team-section-inner .team-info {
+  
+  padding: 0;
+  }
+  .team .team-section .team-section-inner .team-info p{
+    font-size: 25px;
+  }
+.team .team-section .team-section-inner .team-info h1{
+  font-size: 25px;
+}
+
+
+.team .team-section .team-section-inner .team-img img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  transition: all .3s ease;
+  
+}
+.team .team-section .team-section-inner .team-img img:hover{
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.459);
+  transform: none;
+}
+.team .team-section .team-section-inner .team-info2{
+  display: none;
+}
+.client .client-img h4{
+  font-size: 25px;
+}
+.client .about-client .clients-info{
+  font-size: 22px;
+  padding: 10px 0;
+}
+.client{
+  max-height: 800px;
+  max-width: 600px;
+}
+    
+.client .client-img img{
+  position: relative;
+  height:150px !important;
+  width: 150px !important;
+  border-radius: 100%;
+  left: 0px;
+  
+}
+}
+@media only screen and (max-width:1200px){
+  .play-btn{
+    position: relative !important;
+    width: 50px !important;
+    top: -90px !important;
+    left: 280px !important;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+    
+    }
+  }
+
+    @media only screen and (min-width:1199px){
+      .play-btn{
+        position: relative !important;
+        width: 50px !important;
+        top: 30px !important;
+        left: -120px !important;
+        cursor: pointer !important;
+        transition: 0.5s !important;
+        
+        }
+    }    
+    @media only screen and (min-width: 790px){
+  .client .client-img img{
+    position: relative;
+    height:150px ;
+    width: 150px ;
+    border-radius: 100%;
+    left: 150px;
+    
+  }
+  
+ 
+}
+@media only screen and (max-width: 770px){
+    
+  .play-btn{
+    position: relative !important;
+    width: 50px !important;
+    top: 30px !important;
+    left: -200px !important;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+    
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .wrapper{
+        overflow-x: hidden;
+      }
+    .wrapper .top_nav{
+  margin-top: 0;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+    }
+    .wrapper .top_nav .left{
+        display: flex;
+        align-items: center;
+        
+      }
+      .logo{
+        box-shadow:12px 10px 12px rgba(10, 10, 10, 0.3);
+      }
+      .header .logo2 .fa-free-code-camp{
+  
+        font-size: 3rem !important;
+       
+        
+      }
+      .wrapper .top_nav .left .logo p{
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--white);
+        font-family: var(--Abel);
+        
+      }
+      
+      .wrapper .top_nav .left .logo p span{
+        color: var(--midnight);
+        
+        
+      }
+      
+      .wrapper .top_nav .left .search_bar input[type="text"]{
+       position: relative;
+         width: 60%;
+          text-align: center;
+          border: none;
+          left: 10%;
+          border-bottom: 1px solid #00316b;
+          outline: none;
+          background-color: #fff;
+          transition: all 0.5s linear;
+          
+      }
+      
+      
+      .wrapper .top_nav .left .search_bar input[type="text"]:focus{
+        width: 150px;
+        left: 0;
+        position: relative;
+      }
+      
+      .wrapper .top_nav .nav1 ul{
+        display: flex;
+       
+      }
+      
+      .wrapper .top_nav .nav1 ul li{
+        margin: 0px;
+      }
+      
+      .wrapper .top_nav .nav1 ul li{
+        margin-right: 0;
+        border-radius: 2px;
+        
+      }
+      
+      
+      
+      .wrapper .top_nav .nav1 ul li a {
+        position: relative;
+        top: 20px;
+        left:-10px;
+       font-size: 1.3rem;
+        color: var(--white);
+        text-decoration: none; 
+        
+       
+      }
+      
+      .wrapper .top_nav .nav1 ul li a .none{
+         display: none;
+      }
+      .header .logo2 .fa-free-code-camp{
+          font-size: 4rem;
+      }
+      .home-img img{
+        max-width: 400px;
+        max-height: 700px;
+        width: 100%;
+        position: absolute;
+        left: 25px;
+        top: 50px;
+      }
+      .home-section .carousel-item .home-img {
+        position: relative;
+      }
+      .home-section .carousel-item .home-img img{
+        height: auto !important;
+        left: 0px;
+        
+
+      }
+      .home-section .carousel-inner .home-content h1{
+        font-size: 1rem;
+      }
+
+      .home-section .carousel-inner .home-content p{
+        font-size: 0.9rem;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        line-height: 20px;
+        
+
+      }
+      h3.title {
+        font-size:1.5rem;
+      }
+      .heady p:before {
+        left: 60%;
+      }
+      .heady p:after {
+        right: 60%;
+      }
+      .inner-container h1{
+        font-size: 1rem;
+      }
+      .skills{
+        display: block;
+        font-size: large;
+      }
+      .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+    
+.abt{
+  padding: 1rem 0 1em;
+}
+
+.course .course-item{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 30px;
+  padding: 0 5px;
+
+
+}
+.team .team-section{
+  flex: 0 0 100%;
+   max-width: 100%;
+   }
+   .team .team-section .team-section-inner  {
+    
+    padding: 10px 0 0 0;
+    }
+.team .team-section .team-section-inner .team-img img{
+  width:200px;
+  height: 200px;
+  border-radius: 100%;
+  transition: all 1s ease;
+    
+   
+}
+.team .team-section .team-section-inner .team-info2{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  text-align: center !important;
+  left: -13px !important;
+  top: -100px;
+}
+.client .about-client .clients-info{
+  font-size: 20px;
+  padding-top: -10px;
+}
+.client{
+  
+  max-width: 700px;
+  max-height: 800px;
+}
+.client .client-img img{
+  position: relative;
+  height:200px ;
+  width: 200px ;
+  border-radius: 100%;
+  left: 80px;
+  
+}
+
+.wthree_footer_grid_left1 {
+  padding: 0 .5em;
+}
+.wthree_footer_grid_left1{
+  width: 100%;
+}
+.footer-row1.wthree_footer_grid_right1 {
+  float: right;
+  width: 50%;
+}
+
+.footer-row1:nth-child(2) {
+  margin: 2em 0;
+}
+.footer-rowt1 h4 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+.footer-row1 ul li {
+  margin-bottom: .8em;
+}
+.wthree_footer_grid_right1 ul li i {
+  padding-right: 1em;
+}
+.w3layouts_copy_right p {
+  font-size: 1em;
+}
+.footer-row {
+  padding: 3em 0;
+}
+.footer-row1 h4:after {
+  width: 10%;
+}
+/* lightbox */
+.play-btn{
+  position: relative !important;
+  width: 50px !important;
+  top: 30px !important;
+  left: -240px !important;
+  cursor: pointer !important;
+  transition: 0.5s !important;
+  }
+
+
+
+/* course lighbox */
+
+/* blogs */
+    
+}
+@media only screen and (max-width: 486px){
+  .course .course-item,
+  .services .service-item{
+    
+    -ms-flex: 0 0 100%;
+   flex: 0 0 100%;
+   max-width: 100%; 
+ 
+ }
+ .header .logo2 .fa-free-code-camp{
+  
+  font-size: 2.7rem;
+ 
+  
+} 
+.section-title{
+  font-size: 1.6rem;
+  font-weight: 300;
+  
+}
+.client .client-img{
+  padding: 1rem;
+  
+
+  
+}
+.client .client-img img{
+  position: relative;
+  height:150px ;
+  width: 150px ;
+  border-radius: 100%;
+  left: 45px;
+  
+}
+.client .about-client .clients-info{
+  font-size: 15px;
+  padding-top: -10px;
+}
+
+/* lightbox */
+.play-btn{
+  position: relative !important;
+  width: 50px !important;
+  top: -80px !important;
+  left: 135px !important;
+  cursor: pointer !important;
+  transition: 0.5s !important;
+  }
+
+
+
+/* course lighbox */
+.play-button{
+  position: relative !important;
+  width: 50px !important;
+  top: -120px !important;
+  left: 150px !important;
+  cursor: pointer !important;
+  opacity: 1;
+  /* display: none !important; */
+}
+/* blogs */
+
+
+/* lightbox */
+
+
+}
